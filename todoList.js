@@ -45,22 +45,6 @@ peopleRef.orderByChild('height').startAt(160).limitToFirst(1).once('value', func
     })
 });
 
-var now = new Date();
-console.log(now);
-console.log(now.getFullYear());
-console.log(now.getMonth());
-console.log(now.getDate());
-console.log(now.getDay());
-console.log(now.getHours());
-console.log(now.getMinutes());
-console.log(now.getSeconds());
-console.log(now.getMilliseconds());
-
-
-
-
-
-
 var item = document.getElementById('item');
 var send = document.getElementById('send');
 var list = document.getElementById('list');
