@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/Bearkern/NodeJS#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "browser-sync": "^2.23.6",
-    "express": "^4.16.2"
+    "ejs-locals": "^1.0.2",
+    "express": "^4.16.2",
+    "firebase-admin": "^5.8.1",
+    "nodemon": "^1.14.11"
   }
 }

@@ -1,0 +1,11 @@
+<% layout('layout') %>
+<h1>待辦事項</h1>
+<input type="text" id="content">
+<input type="submit" id="save" value="Save">
+
+<ul id="list">
+    <% for(item in todolist){ %>
+        <li><%- todolist[item].content %><input type="button" data-id="<%- item %>" id="delete" value="Delete"></li>
+    <% } %>
+</ul>
+<script src="./script/all.js"></script>
